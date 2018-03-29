@@ -1,0 +1,193 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\victordivino\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'jquery',
+1 verbose cli   'jstree',
+1 verbose cli   'aurelia-jstree',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.2
+3 info using node@v8.9.4
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData jquery
+8 silly fetchPackageMetaData jstree
+9 silly fetchPackageMetaData aurelia-jstree
+10 silly fetchNamedPackageData jquery
+11 silly mapToRegistry name jquery
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry data Result {
+14 silly mapToRegistry   raw: 'jquery',
+14 silly mapToRegistry   scope: null,
+14 silly mapToRegistry   escapedName: 'jquery',
+14 silly mapToRegistry   name: 'jquery',
+14 silly mapToRegistry   rawSpec: '',
+14 silly mapToRegistry   spec: 'latest',
+14 silly mapToRegistry   type: 'tag' }
+15 silly mapToRegistry uri https://registry.npmjs.org/jquery
+16 silly fetchNamedPackageData jstree
+17 silly mapToRegistry name jstree
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry data Result {
+20 silly mapToRegistry   raw: 'jstree',
+20 silly mapToRegistry   scope: null,
+20 silly mapToRegistry   escapedName: 'jstree',
+20 silly mapToRegistry   name: 'jstree',
+20 silly mapToRegistry   rawSpec: '',
+20 silly mapToRegistry   spec: 'latest',
+20 silly mapToRegistry   type: 'tag' }
+21 silly mapToRegistry uri https://registry.npmjs.org/jstree
+22 silly fetchNamedPackageData aurelia-jstree
+23 silly mapToRegistry name aurelia-jstree
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'aurelia-jstree',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'aurelia-jstree',
+26 silly mapToRegistry   name: 'aurelia-jstree',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/aurelia-jstree
+28 verbose request uri https://registry.npmjs.org/aurelia-jstree
+29 verbose request no auth needed
+30 info attempt registry request try #1 at 14:27:54
+31 verbose request id d6f7dacc697bb017
+32 verbose etag "59ec82df-3190"
+33 verbose lastModified Sun, 22 Oct 2017 11:37:03 GMT
+34 http request GET https://registry.npmjs.org/aurelia-jstree
+35 verbose request uri https://registry.npmjs.org/jstree
+36 verbose request no auth needed
+37 info attempt registry request try #1 at 14:27:54
+38 verbose etag "5aa5339a-dbc0"
+39 verbose lastModified Sun, 11 Mar 2018 13:48:10 GMT
+40 http request GET https://registry.npmjs.org/jstree
+41 verbose request uri https://registry.npmjs.org/jquery
+42 verbose request no auth needed
+43 info attempt registry request try #1 at 14:27:54
+44 verbose etag "5aac9424-17db2"
+45 verbose lastModified Sat, 17 Mar 2018 4:05:56 GMT
+46 http request GET https://registry.npmjs.org/jquery
+47 http 304 https://registry.npmjs.org/aurelia-jstree
+48 verbose headers { date: 'Thu, 29 Mar 2018 17:27:54 GMT',
+48 verbose headers   via: '1.1 varnish',
+48 verbose headers   'cache-control': 'max-age=300',
+48 verbose headers   etag: '"59ec82df-3190"',
+48 verbose headers   age: '34',
+48 verbose headers   connection: 'keep-alive',
+48 verbose headers   'x-served-by': 'cache-gru17126-GRU',
+48 verbose headers   'x-cache': 'HIT',
+48 verbose headers   'x-cache-hits': '1',
+48 verbose headers   'x-timer': 'S1522344475.776260,VS0,VE0',
+48 verbose headers   vary: 'Accept-Encoding, Accept' }
+49 silly get cb [ 304,
+49 silly get   { date: 'Thu, 29 Mar 2018 17:27:54 GMT',
+49 silly get     via: '1.1 varnish',
+49 silly get     'cache-control': 'max-age=300',
+49 silly get     etag: '"59ec82df-3190"',
+49 silly get     age: '34',
+49 silly get     connection: 'keep-alive',
+49 silly get     'x-served-by': 'cache-gru17126-GRU',
+49 silly get     'x-cache': 'HIT',
+49 silly get     'x-cache-hits': '1',
+49 silly get     'x-timer': 'S1522344475.776260,VS0,VE0',
+49 silly get     vary: 'Accept-Encoding, Accept' } ]
+50 verbose etag https://registry.npmjs.org/aurelia-jstree from cache
+51 verbose get saving aurelia-jstree to C:\Users\victordivino\AppData\Roaming\npm-cache\registry.npmjs.org\aurelia-jstree\.cache.json
+52 verbose correctMkdir C:\Users\victordivino\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+53 http 304 https://registry.npmjs.org/jquery
+54 verbose headers { date: 'Thu, 29 Mar 2018 17:27:54 GMT',
+54 verbose headers   via: '1.1 varnish',
+54 verbose headers   'cache-control': 'max-age=300',
+54 verbose headers   etag: '"5aac9424-17db2"',
+54 verbose headers   age: '1151',
+54 verbose headers   connection: 'keep-alive',
+54 verbose headers   'x-served-by': 'cache-gru17125-GRU',
+54 verbose headers   'x-cache': 'HIT',
+54 verbose headers   'x-cache-hits': '5',
+54 verbose headers   'x-timer': 'S1522344475.779246,VS0,VE0',
+54 verbose headers   vary: 'Accept-Encoding, Accept' }
+55 silly get cb [ 304,
+55 silly get   { date: 'Thu, 29 Mar 2018 17:27:54 GMT',
+55 silly get     via: '1.1 varnish',
+55 silly get     'cache-control': 'max-age=300',
+55 silly get     etag: '"5aac9424-17db2"',
+55 silly get     age: '1151',
+55 silly get     connection: 'keep-alive',
+55 silly get     'x-served-by': 'cache-gru17125-GRU',
+55 silly get     'x-cache': 'HIT',
+55 silly get     'x-cache-hits': '5',
+55 silly get     'x-timer': 'S1522344475.779246,VS0,VE0',
+55 silly get     vary: 'Accept-Encoding, Accept' } ]
+56 verbose etag https://registry.npmjs.org/jquery from cache
+57 verbose get saving jquery to C:\Users\victordivino\AppData\Roaming\npm-cache\registry.npmjs.org\jquery\.cache.json
+58 verbose correctMkdir C:\Users\victordivino\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+59 http 304 https://registry.npmjs.org/jstree
+60 verbose headers { date: 'Thu, 29 Mar 2018 17:27:54 GMT',
+60 verbose headers   via: '1.1 varnish',
+60 verbose headers   'cache-control': 'max-age=300',
+60 verbose headers   etag: '"5aa5339a-dbc0"',
+60 verbose headers   age: '0',
+60 verbose headers   connection: 'keep-alive',
+60 verbose headers   'x-served-by': 'cache-gru17127-GRU',
+60 verbose headers   'x-cache': 'MISS',
+60 verbose headers   'x-cache-hits': '0',
+60 verbose headers   'x-timer': 'S1522344475.775403,VS0,VE219',
+60 verbose headers   vary: 'Accept-Encoding, Accept' }
+61 silly get cb [ 304,
+61 silly get   { date: 'Thu, 29 Mar 2018 17:27:54 GMT',
+61 silly get     via: '1.1 varnish',
+61 silly get     'cache-control': 'max-age=300',
+61 silly get     etag: '"5aa5339a-dbc0"',
+61 silly get     age: '0',
+61 silly get     connection: 'keep-alive',
+61 silly get     'x-served-by': 'cache-gru17127-GRU',
+61 silly get     'x-cache': 'MISS',
+61 silly get     'x-cache-hits': '0',
+61 silly get     'x-timer': 'S1522344475.775403,VS0,VE219',
+61 silly get     vary: 'Accept-Encoding, Accept' } ]
+62 verbose etag https://registry.npmjs.org/jstree from cache
+63 verbose get saving jstree to C:\Users\victordivino\AppData\Roaming\npm-cache\registry.npmjs.org\jstree\.cache.json
+64 verbose correctMkdir C:\Users\victordivino\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+65 silly install normalizeTree
+66 silly loadCurrentTree Finishing
+67 silly loadIdealTree Starting
+68 silly install loadIdealTree
+69 silly cloneCurrentTree Starting
+70 silly install cloneCurrentTreeToIdealTree
+71 silly cloneCurrentTree Finishing
+72 silly loadShrinkwrap Starting
+73 silly install loadShrinkwrap
+74 silly loadShrinkwrap Finishing
+75 silly loadAllDepsIntoIdealTree Starting
+76 silly install loadAllDepsIntoIdealTree
+77 silly rollbackFailedOptional Starting
+78 silly rollbackFailedOptional Finishing
+79 silly runTopLevelLifecycles Starting
+80 silly runTopLevelLifecycles Finishing
+81 silly install printInstalled
+82 verbose stack Error: Refusing to install jstree as a dependency of itself
+82 verbose stack     at checkSelf (C:\Users\victordivino\AppData\Roaming\npm\node_modules\npm\lib\install\validate-args.js:53:14)
+82 verbose stack     at Array.<anonymous> (C:\Users\victordivino\AppData\Roaming\npm\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+82 verbose stack     at LOOP (C:\Users\victordivino\AppData\Roaming\npm\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+82 verbose stack     at chain (C:\Users\victordivino\AppData\Roaming\npm\node_modules\npm\node_modules\slide\lib\chain.js:20:5)
+82 verbose stack     at C:\Users\victordivino\AppData\Roaming\npm\node_modules\npm\lib\install\validate-args.js:16:5
+82 verbose stack     at C:\Users\victordivino\AppData\Roaming\npm\node_modules\npm\node_modules\slide\lib\async-map.js:52:35
+82 verbose stack     at Array.forEach (<anonymous>)
+82 verbose stack     at C:\Users\victordivino\AppData\Roaming\npm\node_modules\npm\node_modules\slide\lib\async-map.js:52:11
+82 verbose stack     at Array.forEach (<anonymous>)
+82 verbose stack     at asyncMap (C:\Users\victordivino\AppData\Roaming\npm\node_modules\npm\node_modules\slide\lib\async-map.js:51:8)
+83 verbose cwd c:\Repositorios\jstree
+84 error Windows_NT 6.1.7601
+85 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\victordivino\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "jquery" "jstree" "aurelia-jstree" "--save"
+86 error node v8.9.4
+87 error npm  v3.10.2
+88 error code ENOSELF
+89 error Refusing to install jstree as a dependency of itself
+90 error If you need help, you may report this error at:
+90 error     <https://github.com/npm/npm/issues>
+91 verbose exit [ 1, true ]

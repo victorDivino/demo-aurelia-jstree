@@ -1,0 +1,8 @@
+<template>
+  <require from="aurelia-jstree/styles.css"></require>
+  <require from="jstree/dist/themes/default/style.css"></require>
+  <au-js-tree settings.bind="jstreeConfig"
+            data.bind="data"
+            selection-changed.bind="onSelectionChanged"
+            node-moved.bind="onNodeMoved"></au-js-tree>
+</template>
