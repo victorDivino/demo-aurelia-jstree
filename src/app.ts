@@ -1,52 +1,27 @@
 export class App {
+  data;
+
   public jstreeConfig = {
+    plugins: ["wholerow"],
+    check_callback: true,
     core: {
       multiple: false
-    },
+    }
   }
 
-  public data = [
-    {
-      text: "Root folder",
-      state: { opened: true },
-      isFolder: true,
-      children: [
-        {
-          text: "File 1",
-          state: { selected: true },
-          icon: "jstree-file"
-        },
-        {
-          text: "File 2",
-          icon: "jstree-file"
-        },
-        {
-          text: "Subfolder",
-          state: { opened: false },
-          icon: "jstree-folder",
-          children: [
-            {
-              text: "File 1",
-              state: { selected: true },
-              icon: "jstree-file"
-            },
-            {
-              text: "File 2",
-              icon: "jstree-file"
-            }]
-          ,
-          isFolder: true
-        }
-      ]
+  async activate() {
+    this.data = {
+      url: "//localhost:3000/ItemDiretorioApiDtos",
+      data: function (node) {
+        return node.id === "#"
+          ? { PastaId: 0 }
+          : { PastaId: node.id }
+      }
     }
-  ];
+  }
 
   onSelectionChanged = (e: JQueryEventObject, data: any) => {
-    debugger;
-    console.group("Selection was changed");
-    console.log(this);
-    console.log(e);
     console.log(data);
-    console.groupEnd();
+    debugger;
   }
 }
